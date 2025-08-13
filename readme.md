@@ -40,8 +40,8 @@ Make sure the CSV file is in the same folder as the script.
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/car-emissions-data.git
-   cd car-emissions-data
+   git clone https://github.com/soroushsohrabi/Vehicle-CO2-Emissions-Analysis.git
+   cd Vehicle-CO2-Emissions-Analysis
    ```
 
 2. Put `FuelConsumption.csv` in there.
