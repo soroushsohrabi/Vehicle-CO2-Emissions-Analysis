@@ -34,6 +34,4 @@ def linear_regression(x,y):
     b=avg(y)-(a*avg(x))
     return f"y={a:.2f}x+{b:.2f}"
 
-print(linear_regression(Enginsize,CO2EMISSIONS))
-print(linear_regression(Cylinders,CO2EMISSIONS))
-print(linear_regression(FUELCONSUMPTION_COMB_MPG,CO2EMISSIONS))
+print(f"Linear Regression Enginsize and CO2EMISSIONS{linear_regression(Enginsize,CO2EMISSIONS)}\nLinear Regression Cylinders and CO2EMISSIONS{linear_regression(Cylinders,CO2EMISSIONS)}\nLinear Regression FUELCONSUMPTION_COMB_MPG and CO2EMISSIONS{linear_regression(FUELCONSUMPTION_COMB_MPG,CO2EMISSIONS)}")
